@@ -1,4 +1,4 @@
-{
+export default {
     searchResults: [{
         visitFrequency: 100,
         lastVisit: "2019-12-16",
@@ -89,7 +89,7 @@
             url: "https://www.google.com/search?q=Adam+Enbar",
         },{
             label: "Avi Flombaum",
-        }]
+        }],
         employees: "151-200",
         owner: {
             label: "WeWork",

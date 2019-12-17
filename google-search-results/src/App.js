@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import data from './data'
 
-export default class App {
+export default class App extends Component {
     state = data
     render(){
         return (
@@ -10,5 +10,3 @@ export default class App {
         )
     }
 }
-
-export default App
