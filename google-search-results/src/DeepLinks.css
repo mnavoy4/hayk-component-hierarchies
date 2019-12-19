@@ -1,0 +1,15 @@
+.deep-links {
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+.deep-links > ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 16px;
+}
+.search-result > .more-links {
+    margin-left: 24px;
+}
+
+

@@ -1,0 +1,5 @@
+.primary-navigation {
+    display: grid;
+    grid-template-columns: 130px 575px 1fr;
+}
+

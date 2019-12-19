@@ -1,0 +1,15 @@
+.search-results {
+    grid-column: 2;
+}
+.search-results .totals {
+    color: hsl(0, 0%, 50%);
+    font-size: 12px;
+    padding: 0 16px;
+}
+.search-results > ul {
+    margin-top: 24px;
+}
+.search-results > ul > li {
+    margin-bottom: 24px;
+}
+

@@ -1,0 +1,20 @@
+.image-bar {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+}
+.image-bar > .lead-image {
+    width: 390px;
+}
+.image-bar > .supporting-images {
+    display: flex;
+    flex-flow: row wrap;
+}
+.image-bar > .supporting-images li {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}

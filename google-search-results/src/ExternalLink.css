@@ -1,0 +1,14 @@
+.external-link {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.external-link a {
+    text-align: center;
+    font-size: 12px;
+}
+.external-link figure {
+    height: 40px;
+    margin: auto 0;
+}

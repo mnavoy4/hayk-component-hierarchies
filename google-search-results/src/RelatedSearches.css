@@ -1,0 +1,10 @@
+.related-searches ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+.related-searches li {
+    width: 75px;
+}
+.related-searches img {
+    max-width: 100%;
+}

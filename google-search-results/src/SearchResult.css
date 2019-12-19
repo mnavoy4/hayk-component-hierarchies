@@ -1,0 +1,16 @@
+.search-result > p, .search-result > h3 {
+    padding: 0 16px;
+}
+
+.search-result > .url {
+    color: hsl(130, 40%, 35%);
+}
+.search-result > .url img {
+    margin-left: 6px;
+    width: 12px;
+}
+
+.search-result > .last-visit {
+    color: hsl(0, 0%, 45%);
+}
+

@@ -1,0 +1,17 @@
+.details > p {
+    margin-bottom: 16px;
+    color: hsl(0, 0%, 10%);
+}
+.details li {
+    display: flex;
+    margin-bottom: 16px;
+}
+.details dt {
+    font-weight: bold;
+    color: hsl(0, 0%, 10%);
+    margin-right: 0.5em;
+}
+
+.details dt, .details, dd {
+    font-size: 14px;
+}

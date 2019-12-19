@@ -1,0 +1,18 @@
+.search-type {
+    color: hsl(0, 0%, 40%);
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 12px;
+    height: 100%;
+}
+
+.search-type i {
+    margin-right: 6px;
+}
+
+.search-type.active {
+    border-bottom: 2px solid hsl(210, 80%, 50%);
+    color: hsl(210, 80%, 50%);
+}

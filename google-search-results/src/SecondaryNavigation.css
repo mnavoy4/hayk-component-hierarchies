@@ -1,0 +1,23 @@
+.secondary-navigation {
+    padding: 0 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.secondary-navigation ul {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.secondary-navigation a {
+    display: inline-block;
+    color: hsl(0, 0%, 40%);
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 24px 9px 16px 9px;
+}

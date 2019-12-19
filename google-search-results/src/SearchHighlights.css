@@ -1,0 +1,17 @@
+.search-highlights {
+    grid-column: 3;
+    margin-top: 24px;
+    border: 0.5px solid hsl(0, 0%, 90%);
+    max-width: 425px;
+    border-radius: 4px;
+}
+
+.search-highlights > header {
+    border-bottom: 0.5px solid hsl(0, 0%, 90%);
+}
+.search-highlights > main {
+    padding: 16px;
+}
+.search-highlights > main > section {
+    margin-bottom: 24px;
+}
