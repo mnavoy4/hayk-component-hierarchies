@@ -1,0 +1,355 @@
+.App {
+    padding: 18px 0;
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 17%);
+}
+
+.App > header {
+    width: 100%;
+    border-bottom: 0.5px solid hsl(0, 0%, 90%);
+    display: grid;
+    grid-template-columns: 130px 575px 1fr;
+    margin-bottom: 16px;
+}
+
+.App > main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 130px 575px 1fr;
+}
+.App .search-highlights {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+
+.primary-navigation {
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+
+.secondary-navigation {
+    grid-row: 2;
+    grid-column: 2;
+}
+.app-card {
+    border: 0.5px solid hsl(0, 0%, 90%);
+    border-radius: 4px;
+    padding: 16px;
+    margin-right: 8px;
+}
+.app-card > p {
+    overflow: ellipsis;
+}
+
+.app-card .details {
+    font-size: 12px;
+}
+.app-card time {
+    color: hsl(0, 0%, 50%);
+}
+.app-card time::before {
+    content: " · "
+}
+.app-card a {
+    color: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 145px;
+    height: 180px;
+}
+.app-cards {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-top: 16px;
+}
+.deep-link {
+    max-width: 225px;
+    margin-right: 30px;
+}
+.deep-links {
+    margin-top: 24px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+.deep-links > ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 16px;
+}
+.search-result > .more-links {
+    margin-left: 24px;
+}
+
+.details > p {
+    margin-bottom: 16px;
+    color: hsl(0, 0%, 10%);
+}
+.details li {
+    display: flex;
+    margin-bottom: 16px;
+}
+.details dt {
+    font-weight: bold;
+    color: hsl(0, 0%, 10%);
+    margin-right: 0.5em;
+}
+
+.details dt, .details, dd {
+    font-size: 14px;
+}
+.external-link {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.external-link a {
+    text-align: center;
+    font-size: 12px;
+}
+.external-link figure {
+    height: 40px;
+    margin: auto 0;
+}
+.image-bar {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+}
+.image-bar > .lead-image {
+    width: 390px;
+}
+.image-bar > .supporting-images {
+    display: flex;
+    flex-flow: row wrap;
+}
+.image-bar > .supporting-images li {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+#logo {
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#logo img {
+    max-width: 90px;
+}
+
+.overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+.overview p {
+    font-size: 12px;
+    color: hsl(0, 0%, 50%);
+}
+.overview > a {
+    color: hsl(0, 0%, 50%);
+}
+.primary-navigation {
+    display: grid;
+    grid-template-columns: 130px 575px 1fr;
+}
+
+.profiles > ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+.question-answer {
+    border-top: 0.5px solid hsl(0, 0%, 90%);
+}
+
+.question-answer time {
+    color: hsl(0, 0%, 50%);
+    font-size: 12px;
+}
+
+.question-answer header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-answer main {
+    padding: 16px;
+}
+.question-answer main h3 {
+    margin-top: 16px;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.question-answer main .url {
+    color: hsl(130, 40%, 35%);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.question-answer header i {
+    color: hsl(0, 0%, 50%);
+    padding-right: 16px;
+}
+.question-answers {
+    border: 0.5px solid hsl(0, 0%, 90%);
+    border-radius: 4px;
+}
+.question-answers h3 {
+    padding: 16px;
+}
+.related-searches ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+.related-searches li {
+    width: 75px;
+}
+.related-searches img {
+    max-width: 100%;
+}
+.search-highlights {
+    grid-column: 3;
+    margin-top: 24px;
+    border: 0.5px solid hsl(0, 0%, 90%);
+    max-width: 425px;
+    border-radius: 4px;
+}
+
+.search-highlights > header {
+    border-bottom: 0.5px solid hsl(0, 0%, 90%);
+}
+.search-highlights > main {
+    padding: 16px;
+}
+.search-highlights > main > section {
+    margin-bottom: 24px;
+}
+.search-input {
+    border: 0.5px solid hsl(0, 0%, 90%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.search-input input {
+    border: none;
+    width: 100%;
+    height: 25px;
+}
+.search-input i {
+    color: hsl(210, 80%, 50%);
+}
+.search-result > p, .search-result > h3 {
+    padding: 0 16px;
+}
+
+.search-result > .url {
+    color: hsl(130, 40%, 35%);
+}
+.search-result > .url img {
+    margin-left: 6px;
+    width: 12px;
+}
+
+.search-result > .last-visit {
+    color: hsl(0, 0%, 45%);
+}
+
+.search-results {
+    grid-column: 2;
+}
+.search-results .totals {
+    color: hsl(0, 0%, 50%);
+    font-size: 12px;
+    padding: 0 16px;
+}
+.search-results > ul {
+    margin-top: 24px;
+}
+.search-results > ul > li {
+    margin-bottom: 24px;
+}
+
+.search-type {
+    color: hsl(0, 0%, 40%);
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 12px;
+    height: 100%;
+}
+
+.search-type i {
+    margin-right: 6px;
+}
+
+.search-type.active {
+    border-bottom: 2px solid hsl(210, 80%, 50%);
+    color: hsl(210, 80%, 50%);
+}
+.secondary-navigation {
+    padding: 0 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.secondary-navigation ul {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.secondary-navigation a {
+    display: inline-block;
+    color: hsl(0, 0%, 40%);
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 24px 9px 16px 9px;
+}
+.user-navigation {
+    width: 100%;
+}
+.user-navigation ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+.user-navigation img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+.user-navigation a {
+    font-size: 18px;
+    color: hsl(0, 0%, 40%);
+}
+.user-navigation .profile {
+    border-radius: 50%;
+    border: 2px solid hsl(120, 40%, 40%);
+    margin: 0 16px;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+}
